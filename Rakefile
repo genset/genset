@@ -15,10 +15,10 @@ require 'juwelier'
 Juwelier::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "genset"
-  gem.homepage = "http://github.com/genset/genset"
+  gem.homepage = "https://genset.github.com/genset"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{One-line summary of your gem}
+  gem.description = %Q{Longer description of your gem}
   gem.email = "jason@ihaia.com"
   gem.authors = ["Jason Ihaia"]
 

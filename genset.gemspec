@@ -5,32 +5,29 @@
 # stub: genset 0.0.0 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "genset".freeze
+  s.name = "genset"
   s.version = "0.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
-  s.require_paths = ["lib".freeze]
-  s.authors = ["Jason Ihaia".freeze]
+  s.require_paths = ["lib"]
+  s.authors = ["Jason Ihaia"]
   s.date = "2016-10-28"
-  s.description = "Longer description of your gem".freeze
-  s.email = "jason@ihaia.com".freeze
-  s.extra_rdoc_files = [
-    "LICENSE.txt",
-    "README.rdoc"
-  ]
+  s.description = "Longer description of your gem"
+  s.email = ["jason@ihaia.com"]
+
   s.files = [
     ".document",
     "Gemfile",
-    "LICENSE.txt",
-    "README.rdoc",
+    "LICENSE.md",
+    "README.md",
     "Rakefile",
     "VERSION",
     "lib/genset.rb"
   ]
-  s.homepage = "http://github.com/genset/genset".freeze
-  s.licenses = ["MIT".freeze]
-  s.rubygems_version = "2.6.4".freeze
-  s.summary = "TODO: one-line summary of your gem".freeze
+  s.homepage = "http://genset.github.io/genset"
+  s.license = "MIT"
+  s.rubygems_version = "2.6.4"
+  s.summary = "This is my gem"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
