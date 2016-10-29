@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
     "genset.gemspec",
     "lib/genset.rb"
   ]
-  s.homepage = "https://genset.github.io/genset".freeze
+  s.homepage = "https://genset.github.com/genset".freeze
   s.licenses = ["MIT".freeze]
   s.rubygems_version = "2.6.4".freeze
   s.summary = "One-line summary of your gem".freeze
@@ -61,3 +61,4 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<simplecov>.freeze, [">= 0"])
   end
 end
+
