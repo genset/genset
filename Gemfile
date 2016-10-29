@@ -6,8 +6,6 @@ source "https://rubygems.org"
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 
-gemspec
-
 group :development do
   gem "shoulda", ">= 0"
   gem "rdoc", "~> 3.12"
@@ -15,3 +13,5 @@ group :development do
   gem "juwelier", "~> 2.1.0"
   gem "simplecov", ">= 0"
 end
+
+gem 'rails', '~> 5.0.0'
