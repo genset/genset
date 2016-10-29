@@ -15,3 +15,5 @@ group :development do
   gem "juwelier", "~> 2.1.0"
   gem "simplecov", ">= 0"
 end
+
+gem "rails", "~> 5.0.0"
