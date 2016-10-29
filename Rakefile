@@ -15,7 +15,7 @@ require 'juwelier'
 Juwelier::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "genset"
-  gem.homepage = "https://genset.github.com/genset"
+  gem.homepage = "https://genset.github.io/genset"
   gem.license = "MIT"
   gem.summary = %Q{One-line summary of your gem}
   gem.description = %Q{Longer description of your gem}
