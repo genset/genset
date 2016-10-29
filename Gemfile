@@ -14,4 +14,8 @@ group :development do
   gem "simplecov", ">= 0"
 end
 
+group :development, :test do
+  gem "minitest"
+end
+
 gem 'rails', '~> 5.0.0'
