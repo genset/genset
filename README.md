@@ -1,9 +1,11 @@
-= genset
+[![Build Status](https://travis-ci.org/genset/genset.svg?branch=develop)](https://travis-ci.org/genset/genset)
+
+# Genset
 
 Description goes here.
 
 == Contributing to genset
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.
@@ -16,4 +18,3 @@ Description goes here.
 
 Copyright (c) 2016 Jason Ihaia. See LICENSE.txt for
 further details.
-
