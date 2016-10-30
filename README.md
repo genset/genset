@@ -1,5 +1,5 @@
 [![Travis CI](https://travis-ci.org/genset/genset.svg?branch=develop)](https://travis-ci.org/genset/genset)
-[![Gem Version](https://img.shields.io/gem/v/genset.svg)](https://rubygems.org/gems/genset)
+[![Gem Version](https://badge.fury.io/rb/genset.svg)](https://badge.fury.io/rb/genset)
 [![Code Climate](https://codeclimate.com/github/genset/genset/badges/gpa.svg)](https://codeclimate.com/github/genset/genset)
 [![Test Coverage](https://codeclimate.com/github/genset/genset/badges/coverage.svg)](https://codeclimate.com/github/genset/genset/coverage)
 
