@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/genset/genset.svg?branch=develop)](https://travis-ci.org/genset/genset)  [![Gem Version](https://img.shields.io/gem/v/gensetsvg)][gem]  [![Code Climate](https://codeclimate.com/github/genset/genset/badges/gpa.svg)](https://codeclimate.com/github/genset/genset)  [![Test Coverage](https://codeclimate.com/github/genset/genset/badges/coverage.svg)](https://codeclimate.com/github/genset/genset/coverage)
+[![Build Status](https://travis-ci.org/genset/genset.svg?branch=develop)](https://travis-ci.org/genset/genset)  [![Gem Version](https://img.shields.io/gem/v/genset.svg)][gem]  [![Code Climate](https://codeclimate.com/github/genset/genset/badges/gpa.svg)](https://codeclimate.com/github/genset/genset)  [![Test Coverage](https://codeclimate.com/github/genset/genset/badges/coverage.svg)](https://codeclimate.com/github/genset/genset/coverage)
 
 # Welcome to Genset
 
