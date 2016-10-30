@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/genset/genset.svg?branch=develop)]
+[Build Status](https://travis-ci.org/genset/genset.svg?branch=develop)
 [![Gem Version](https://img.shields.io/gem/v/genset.svg)]
 [![Code Climate](https://codeclimate.com/github/genset/genset/badges/gpa.svg)]
 [![Test Coverage](https://codeclimate.com/github/genset/genset/badges/coverage.svg)]
