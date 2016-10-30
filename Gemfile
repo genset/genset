@@ -16,6 +16,7 @@ end
 
 group :development, :test do
   gem "minitest"
+  gem "codeclimate-test-reporter", require: nil
 end
 
 gem 'rails', '~> 5.0.0'
