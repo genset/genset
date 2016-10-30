@@ -1,0 +1,3 @@
+module Genset
+  VERSION = '0.1.0'
+end

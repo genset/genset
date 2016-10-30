@@ -1,54 +1,37 @@
-# encoding: utf-8
-
-require 'rubygems'
-require 'bundler'
 begin
-  Bundler.setup(:default, :development)
-rescue Bundler::BundlerError => e
-  $stderr.puts e.message
-  $stderr.puts "Run `bundle install` to install missing gems"
-  exit e.status_code
+  require 'bundler/setup'
+rescue LoadError
+  puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
 end
-require 'rake'
-
-require 'juwelier'
-Juwelier::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "genset"
-  gem.homepage = "https://genset.github.com/genset"
-  gem.license = "MIT"
-  gem.summary = %Q{One-line summary of your gem}
-  gem.description = %Q{Longer description of your gem}
-  gem.email = "jason@ihaia.com"
-  gem.authors = ["Jason Ihaia"]
-
-  # dependencies defined in Gemfile
-end
-Juwelier::RubygemsDotOrgTasks.new
-
-require 'rake/testtask'
-Rake::TestTask.new(:test) do |test|
-  test.libs << 'lib' << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-end
-
-desc "Code coverage detail"
-task :simplecov do
-  ENV['COVERAGE'] = "true"
-  Rake::Task['test'].execute
-end
-
-task :default => :test
 
 require 'rdoc/task'
-Rake::RDocTask.new do |rdoc|
-  version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
+RDoc::Task.new(:rdoc) do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "genset #{version}"
-  rdoc.rdoc_files.include('README*')
+  rdoc.title    = 'Genset'
+  rdoc.options << '--line-numbers'
+  rdoc.rdoc_files.include('README.md')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 
+APP_RAKEFILE = File.expand_path("../test/dummy/Rakefile", __FILE__)
+load 'rails/tasks/engine.rake'
+
+
+load 'rails/tasks/statistics.rake'
+
+
+
+require 'bundler/gem_tasks'
+
 require 'rake/testtask'
+
+Rake::TestTask.new(:test) do |t|
+  t.libs << 'lib'
+  t.libs << 'test'
+  t.pattern = 'test/**/*_test.rb'
+  t.verbose = false
+end
+
+
+task default: :test
